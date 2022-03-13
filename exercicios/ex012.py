@@ -1,9 +1,8 @@
 #calculando desconto na promoção
-n1 = float(input('Digite p preço'))
-n2 = (5)
-n3 = (n1/100*n2)
-n4 = (n1+n3)
-print('Opreço com 5, de desconte fica em {}'.format(n4))
+preço= float(input('Qual é o preço do sue produto R$'))
+# Porcentagem é valor do produto vezez o nivel da porcentagem dividido por cem
+novo = preço - (preço * 5 / 100)
+print('Opreço com 5%, de desconte fica em {:.2f}'.format(novo))
 
 
 

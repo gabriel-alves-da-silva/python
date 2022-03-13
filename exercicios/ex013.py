@@ -1,7 +1,6 @@
 #calculando salario
-n1 = float(input('Digite o salario'))
-n2 = (15)
-n3 = (n1/100*n2)
-n4 = (n1+n3)
-print('O salario com 15%, de almento fica em {}'.format(n4))
+sal = float(input('Digite o salario R$'))
+# Porcentagem é valor do produto vezez o nivel da porcentagem dividido por cem
+novo = sal + (sal *15 /100)
+print('O salario de {:.2f} com 15%, de aumento fica em {:.2f}'.format( sal,novo))
 
